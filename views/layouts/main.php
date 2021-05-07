@@ -3,6 +3,6 @@
 <h4>Uname: <?= php_uname() ?></h4>
 <h4>PHP: <?= phpversion() ?></h4>
 <h4>MySQL: <?= \Yii::$app->db->getSchema()->getServerVersion() ?></h4>
-<h4>Yii: <?= Yii::getVersion() ?></h4>
+<h4>Yii: <?= \Yii::getVersion() ?></h4>
 <hr>
 <?= $content ?>
